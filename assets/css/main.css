@@ -29,39 +29,40 @@ body {
 .faint-txt {
   color: #c0c0c0;
   font-weight: 500;
+  text-decoration: underline;
 }
 
-/* line 27, ../scss/partials/_components.scss */
+/* line 28, ../scss/partials/_components.scss */
 .vertical-center {
   display: flex;
   align-items: center;
 }
 
-/* line 32, ../scss/partials/_components.scss */
+/* line 33, ../scss/partials/_components.scss */
 .mt-60 {
   margin-top: 60px;
 }
 
-/* line 36, ../scss/partials/_components.scss */
+/* line 37, ../scss/partials/_components.scss */
 p {
   margin-top: 42px;
   margin-bottom: 42px;
   line-height: normal;
 }
 
-/* line 42, ../scss/partials/_components.scss */
+/* line 43, ../scss/partials/_components.scss */
 .progressbar {
   width: 1440px;
   background-color: #f7f7f7;
 }
-/* line 46, ../scss/partials/_components.scss */
+/* line 47, ../scss/partials/_components.scss */
 .progressbar .progress-val {
   width: 1200px;
   background-color: #ff2e5d;
   height: 4px;
 }
 
-/* line 53, ../scss/partials/_components.scss */
+/* line 54, ../scss/partials/_components.scss */
 .title {
   font-weight: 600;
   margin-top: 30px;
@@ -69,34 +70,35 @@ p {
   text-transform: uppercase;
 }
 
-/* line 62, ../scss/partials/_components.scss */
+/* line 63, ../scss/partials/_components.scss */
 .col-centered, .section-two p {
   float: none;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 68, ../scss/partials/_components.scss */
+/* line 69, ../scss/partials/_components.scss */
 .pic-rectangle {
   width: 100px;
   height: 100px;
   border-radius: 30px;
+  object-fit: contain;
 }
 
-/* line 74, ../scss/partials/_components.scss */
+/* line 76, ../scss/partials/_components.scss */
 .logo-box {
   width: 130.7px;
   height: 22px;
   object-fit: contain;
 }
 
-/* line 80, ../scss/partials/_components.scss */
+/* line 82, ../scss/partials/_components.scss */
 header {
   width: 1440px;
   height: 100px;
   background-color: #fff;
 }
-/* line 85, ../scss/partials/_components.scss */
+/* line 87, ../scss/partials/_components.scss */
 header div {
   position: relative;
   top: 50%;
@@ -105,19 +107,19 @@ header div {
   padding-right: 60px !important;
 }
 
-/* line 94, ../scss/partials/_components.scss */
+/* line 96, ../scss/partials/_components.scss */
 .fa {
   height: 14.1px;
   object-fit: contain;
   color: #d8d8d8;
 }
 
-/* line 100, ../scss/partials/_components.scss */
+/* line 102, ../scss/partials/_components.scss */
 section {
   width: 1440px;
 }
 
-/* line 107, ../scss/partials/_components.scss */
+/* line 109, ../scss/partials/_components.scss */
 .txt-normal {
   font-size: 18px;
   font-weight: normal;
@@ -127,12 +129,12 @@ section {
   letter-spacing: normal;
 }
 
-/* line 116, ../scss/partials/_components.scss */
+/* line 118, ../scss/partials/_components.scss */
 .txt-md {
   font-size: 32px;
 }
 
-/* line 120, ../scss/partials/_components.scss */
+/* line 122, ../scss/partials/_components.scss */
 .fee-text {
   font-size: 42px;
   color: #ff2e5d;
@@ -199,4 +201,5 @@ section {
 .policy-summary > div {
   padding-top: 62px;
   padding-bottom: 62px;
+  min-height: 350px;
 }
