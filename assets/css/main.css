@@ -112,14 +112,15 @@ header div {
   height: 14.1px;
   object-fit: contain;
   color: #d8d8d8;
+  margin-right: 4.9px;
 }
 
-/* line 102, ../scss/partials/_components.scss */
+/* line 103, ../scss/partials/_components.scss */
 section {
   width: 1440px;
 }
 
-/* line 109, ../scss/partials/_components.scss */
+/* line 110, ../scss/partials/_components.scss */
 .txt-normal {
   font-size: 18px;
   font-weight: normal;
@@ -129,12 +130,12 @@ section {
   letter-spacing: normal;
 }
 
-/* line 118, ../scss/partials/_components.scss */
+/* line 119, ../scss/partials/_components.scss */
 .txt-md {
   font-size: 32px;
 }
 
-/* line 122, ../scss/partials/_components.scss */
+/* line 123, ../scss/partials/_components.scss */
 .fee-text {
   font-size: 42px;
   color: #ff2e5d;
