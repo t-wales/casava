@@ -1,0 +1,30 @@
+body{
+    font-family: $font-family;
+}
+.cta-large {
+    width: 334px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: $accent-color;
+    color: #fff;
+}
+
+.pic-rectangle {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+
+// text values
+
+.txt-normal {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #43464f;
+}
+
