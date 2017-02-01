@@ -1,8 +1,16 @@
 
+@font-face {
+  font-family: "AvenirNext";
+  src: url("assets/fonts/AVENIRNEXTLTPRO-REGULAR.otf");
+  }
+
 $accent-color: #ff2e5d !default;
-$font-family: "AvenirNext";
+$font-family: 'Lato', sans-serif;;
 $body-background-color: #fff;
 $body-width: 1440px;
 $primary-font-color: #43464f;
 $text-normal: 18px;
 $text-lg: 42px;
+$text-md: 32px;
+$secondary-background:#fefcfc;
+

@@ -1,80 +1,202 @@
-/*
-Error: Undefined variable: "$txt-normal".
-        on line 5 of C:/devtopia/casava/assets/scss/partials/_components.scss
-        from line 3 of C:/devtopia/casava/assets/scss/main.scss
+@font-face {
+  font-family: "AvenirNext";
+  src: url("assets/fonts/AVENIRNEXTLTPRO-REGULAR.otf");
+}
+/* line 1, ../scss/partials/_components.scss */
+body {
+  font-family: "Lato", sans-serif;
+  width: 1440px;
+  background: #fff;
+  font-size: 18px;
+  color: #43464f;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: normal;
+}
 
-1: @import "partials/variables";
-2: @import "partials/mixins";
-3: @import "partials/components";
-4: 
-5: //pages
-6: @import "pages/policy";
+/* line 11, ../scss/partials/_components.scss */
+.cta-large {
+  width: 334px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #ff2e5d;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-Backtrace:
-C:/devtopia/casava/assets/scss/partials/_components.scss:5
-C:/devtopia/casava/assets/scss/main.scss:3
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$txt-normal\".\A         on line 5 of C:/devtopia/casava/assets/scss/partials/_components.scss\A         from line 3 of C:/devtopia/casava/assets/scss/main.scss\A \A 1: @import \"partials/variables\";\A 2: @import \"partials/mixins\";\A 3: @import \"partials/components\";\A 4: \A 5: //pages\A 6: @import \"pages/policy\";"; }
+/* line 21, ../scss/partials/_components.scss */
+.faint-txt {
+  color: #c0c0c0;
+  font-weight: 500;
+}
+
+/* line 27, ../scss/partials/_components.scss */
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+/* line 32, ../scss/partials/_components.scss */
+.mt-60 {
+  margin-top: 60px;
+}
+
+/* line 36, ../scss/partials/_components.scss */
+p {
+  margin-top: 42px;
+  margin-bottom: 42px;
+  line-height: normal;
+}
+
+/* line 42, ../scss/partials/_components.scss */
+.progressbar {
+  width: 1440px;
+  background-color: #f7f7f7;
+}
+/* line 46, ../scss/partials/_components.scss */
+.progressbar .progress-val {
+  width: 1200px;
+  background-color: #ff2e5d;
+  height: 4px;
+}
+
+/* line 53, ../scss/partials/_components.scss */
+.title {
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: auto;
+  text-transform: uppercase;
+}
+
+/* line 62, ../scss/partials/_components.scss */
+.col-centered, .section-two p {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 68, ../scss/partials/_components.scss */
+.pic-rectangle {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+
+/* line 74, ../scss/partials/_components.scss */
+.logo-box {
+  width: 130.7px;
+  height: 22px;
+  object-fit: contain;
+}
+
+/* line 80, ../scss/partials/_components.scss */
+header {
+  width: 1440px;
+  height: 100px;
+  background-color: #fff;
+}
+/* line 85, ../scss/partials/_components.scss */
+header div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+/* line 94, ../scss/partials/_components.scss */
+.fa {
+  height: 14.1px;
+  object-fit: contain;
+  color: #d8d8d8;
+}
+
+/* line 100, ../scss/partials/_components.scss */
+section {
+  width: 1440px;
+}
+
+/* line 107, ../scss/partials/_components.scss */
+.txt-normal {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+/* line 116, ../scss/partials/_components.scss */
+.txt-md {
+  font-size: 32px;
+}
+
+/* line 120, ../scss/partials/_components.scss */
+.fee-text {
+  font-size: 42px;
+  color: #ff2e5d;
+}
+
+/* line 1, ../scss/pages/_policy.scss */
+.fee-box {
+  width: 484px;
+  height: 136px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: solid 4px #f7f7f7;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+/* line 11, ../scss/pages/_policy.scss */
+.fee-box span {
+  font-size: 42px;
+  color: #ff2e5d;
+}
+
+/* line 17, ../scss/pages/_policy.scss */
+.sec-bg {
+  background-color: #fefcfc;
+}
+
+/* line 21, ../scss/pages/_policy.scss */
+.section-one {
+  background-color: #fefcfc;
+  border: solid 1px #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 93px;
+}
+/* line 27, ../scss/pages/_policy.scss */
+.section-two {
+  height: 1436px;
+  background-color: #fdfdfd;
+  padding-bottom: 120px;
+  padding-top: 115px;
+}
+/* line 32, ../scss/pages/_policy.scss */
+.section-two p {
+  width: 386px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 39, ../scss/pages/_policy.scss */
+.section-three {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+/* line 45, ../scss/pages/_policy.scss */
+.premium-txt {
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+}
+
+/* line 53, ../scss/pages/_policy.scss */
+.policy-summary > div {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}

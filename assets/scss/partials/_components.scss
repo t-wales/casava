@@ -2,8 +2,11 @@ body{
     font-family: $font-family;
     width: $body-width;
     background: #fff;
-    font-size: $txt-normal;
+    font-size: $text-normal;
     color: $primary-font-color;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: normal;
 }
 .cta-large {
     width: 334px;
@@ -11,6 +14,55 @@ body{
     border-radius: 5px;
     background-color: $accent-color;
     color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faint-txt {
+    color: #c0c0c0;
+    font-weight: 500;
+}
+
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+p {
+    margin-top: 42px;
+    margin-bottom: 42px;
+    line-height: normal;
+}
+
+.progressbar {
+    width: 1440px;
+    background-color: #f7f7f7;
+
+    .progress-val {
+        width: 1200px;
+        background-color: #ff2e5d;
+        height: 4px;
+    }
+}
+
+.title {
+      font-weight: 600;
+      margin-top: 30px;
+      margin-bottom: auto;
+      text-transform: uppercase;
+}
+
+
+
+.col-centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .pic-rectangle {
@@ -28,8 +80,23 @@ body{
 header {
     width: $body-width;
     height: 100px;
-    background-color: #ffffff;
+    background-color: #fff;
+
+    div {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
 }
+
+.fa {
+    height: 14.1px;
+    object-fit: contain;
+    color: #d8d8d8;
+}
+
 section {
     width: $body-width;
 }
@@ -44,6 +111,10 @@ section {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+}
+
+.txt-md {
+    font-size: $text-md;
 }
 
 .fee-text {
