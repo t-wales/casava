@@ -1,5 +1,9 @@
 body{
     font-family: $font-family;
+    width: $body-width;
+    background: #fff;
+    font-size: $txt-normal;
+    color: $primary-font-color;
 }
 .cta-large {
     width: 334px;
@@ -15,16 +19,34 @@ body{
     border-radius: 30px;
 }
 
+.logo-box {
+    width: 130.7px;
+    height: 22px;
+    object-fit: contain;
+}
+
+header {
+    width: $body-width;
+    height: 100px;
+    background-color: #ffffff;
+}
+section {
+    width: $body-width;
+}
+
 
 // text values
 
 .txt-normal {
-    font-size: 18px;
+    font-size: $text-normal;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #43464f;
 }
 
+.fee-text {
+    font-size: $text-lg;
+    color: $accent-color;
+}
